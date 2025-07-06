@@ -1,7 +1,7 @@
 # OmegaNet
 
 Author: Luis Ayala
-License: 
+
 
 ## Description
 
