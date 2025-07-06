@@ -160,9 +160,14 @@ Example Messages:
 Ω Scalar Cognition System — Copyright & IP Declaration
 
 Author: Luis Ayala
-Year: 2025
+© 2025 Luis Ayala. All Rights Reserved.
 
-Copyright © 2025 Luis Ayala. All rights reserved.
+Permission is granted to **view, copy, and test** this code strictly for personal learning and research purposes only.
+
+Any other use—including distribution, modification, commercial use, or derivative works—is strictly prohibited without explicit prior written permission from Luis Ayala.
+
+For permissions, contact: 
+
 
 This code, including its equations (Ω = (state + bias) × α_total), symbolic recursion logic,
 autonomous agent system, fossil drift memory, and scalar cognition architecture,
