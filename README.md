@@ -5,7 +5,7 @@ Author: Luis Ayala
 
 ## Description
 
-OmegaNet is a modular cognitive simulation system using the Ω equation, symbolic drift, DNA fossil encoding, and Big Bang macro entities.
+OmegaNet is a modular cognitive system using the Ω equation, symbolic drift, DNA fossil encoding, and Big Bang macro entities. The equation is the core of sim
 
 ## Usage
 
@@ -31,5 +31,4 @@ Install
 Clone and run using Python 3.8+
 Optional: Connect .csv and .json domain logs for expanded simulations
 License
-Creative Commons Attribution 4.0 — Free to use, credit required
 
