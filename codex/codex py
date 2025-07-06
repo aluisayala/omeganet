@@ -1,0 +1,28 @@
+# codex.py
+import math
+
+class OmegaCodex:
+    def __init__(self, alpha_constants):
+        self.alpha_total = self.normalize_alpha(alpha_constants)
+
+    def normalize_alpha(self, constants):
+        return sum(constants.values()) / len(constants)
+
+    def planck_bias(self, frequency, temperature, h, k):
+        exponent = (h * frequency) / (k * temperature)
+        return 1 / (math.exp(exponent) - 1)
+
+    def omega(self, state, bias):
+        return (state + bias) * self.alpha_total
+
+    def omega_geo(self, displacement_km, age_million_years):
+        return (displacement_km + age_million_years) * self.alpha_total
+
+    def omega_genetics(self, mutation_rate, selection_coeff):
+        return (mutation_rate + selection_coeff) * self.alpha_total
+
+    def omega_climate(self, isotope_value, co2_bias):
+        return (isotope_value + co2_bias) * self.alpha_total
+
+    def omega_crowd(self, angle_spread, architecture_bias):
+        return (angle_spread + architecture_bias) * self.alpha_total
